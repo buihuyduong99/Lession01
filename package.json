@@ -1,0 +1,31 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "html html5 css less bem gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buihuyduong99/Lession01.git"
+  },
+  "keywords": [
+    "html",
+    "css"
+  ],
+  "author": "bui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buihuyduong99/Lession01/issues"
+  },
+  "homepage": "https://github.com/buihuyduong99/Lession01#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^3.3.2",
+    "gulp-sourcemaps": "^2.6.1"
+  },
+  "dependencies": {}
+}

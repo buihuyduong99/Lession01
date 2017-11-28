@@ -1,0 +1,49 @@
+.na_main {
+    @media @MQ_M-L {
+    display: inline-flex;
+    }
+}
+.na_main-column {
+
+    @media @MQ_M-L {
+    flex-basis: 70%;
+    margin: 0 16px 0 0;
+    }
+}
+.na_article {
+    padding: 25px;
+    background: white;
+    border-radius: 5px;
+    margin: 0 0 16px 0;
+    &__title {
+        color: rgb(255, 176, 159);
+        margin: 0;
+        font-size: 25px;
+    }
+    &__description {
+        margin: 0;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 1em;
+    }
+}
+.na_right-column {
+    @media @MQ_M-L {
+    flex-basis: 30%;
+    }
+}
+.na_teaser {
+    padding: 25px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    &__title {
+        margin: 0;
+        font-size: 25px;
+    }
+    &__description {
+        margin: 20px 0 0 0;
+        font-weight: normal;
+        font-size: 1em;
+    }
+}
