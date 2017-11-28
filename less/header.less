@@ -1,11 +1,22 @@
 .na_top-header {
+    display: flex;
     padding-left: 2%;
-    height: 74px;
     
-    &__logo-link {
-        display: inline-block;
+    flex-direction: column;
+    @media @MQ_M-L {
+        flex-direction: row;
+    }
+    &__logo-link {  
+       
+    }
+    &__ads-link {
     }
     &__logo-img {
-
+        
+    }
+    &__ads-img {
+        width: 100%;
+        
+        
     }
 }

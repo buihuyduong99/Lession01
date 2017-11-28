@@ -17,7 +17,16 @@
     &__title {
         color: rgb(255, 176, 159);
         margin: 0;
-        font-size: 25px;
+        font-size: 1.78em;
+        @media @MQ_S {
+            color: #690808eb;
+        }
+        @media @MQ_M {
+            color: #02ac02eb;
+        }
+        @media @MQ_L {
+            color: #210099eb;
+        }
     }
     &__description {
         margin: 0;
