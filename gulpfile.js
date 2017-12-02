@@ -28,7 +28,7 @@ gulp.task('minify-css',() => {
 gulp.task('watch', function () {
     gulp.watch('./less/**/*.less', ['less', 'minify-css']);
 });
-gulp.task('default', ['less', 'watch', 'minify-css'], function () {
-
-});
+gulp.task('default', ['watch', 'less', 'minify-css'], function () {
+    
+    });
 

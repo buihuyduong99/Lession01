@@ -46,7 +46,7 @@ ul {
   text-align: center;
 }
 .na_navbar__item--active {
-  background-color: #CF5C3F;
+  background-color: #fa0000;
   border-radius: 5px;
 }
 @media only screen and (min-width: 768px) {
